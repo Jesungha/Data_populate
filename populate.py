@@ -5,7 +5,7 @@ def printout():
     f.write("c_order_id, c_order_date, c_order_time, c_order_subtotal, c_order_tax, c_order_total, c_order_payment_type\n")
     total_sales = 0
 
-    i = 0
+    i = 1
     for month in range(2,13):
         if month in [1,3,5,7,8,10,12]:
             days = 31
