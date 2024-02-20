@@ -2,7 +2,7 @@ import math
 import random
 def printout():
     f = open("order_table.csv" ,"w")
-    f.write("c_order_id, c_order_date, c_order_time, c_order_subtotal, c_order_tax, c_order_total, c_order_payment_type")
+    f.write("c_order_id, c_order_date, c_order_time, c_order_subtotal, c_order_tax, c_order_total, c_order_payment_type\n")
     total_sales = 0
 
     i = 0
